@@ -22,6 +22,7 @@ var addToList = function(){
     newItem.textContent = "item ?";
     newItem.addEventListener("mouseover", changeHead);
 	newItem.addEventListener("mouseout", returnHead);
+	newItem.addEventListener("click", deleteFromList);
     list.appendChild(newItem);
 };
 
